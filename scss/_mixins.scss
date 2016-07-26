@@ -1,0 +1,11 @@
+@mixin span-columns ($columns) {
+  @include susy-breakpoint($tablet, $susy) {
+    @include span($columns);
+  }
+
+  &.last {
+    @include susy-breakpoint($tablet, $susy) {
+      @include span($columns last);
+    }
+  }
+}

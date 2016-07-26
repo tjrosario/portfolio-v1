@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "online portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjrosario/portfolio.git"
+  },
+  "author": "Tommy Rosario <tommy@tommyrosario.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjrosario/portfolio/issues"
+  },
+  "homepage": "https://github.com/tjrosario/portfolio#readme",
+  "devDependencies": {
+    "font-awesome": "^4.6.3",
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-notify": "^0.4.5",
+    "grunt-sass": "^1.2.0",
+    "grunt-scss-lint": "^0.3.8",
+    "load-grunt-config": "^0.19.2",
+    "susy": "^2.2.12",
+    "time-grunt": "^1.4.0"
+  }
+}

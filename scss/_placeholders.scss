@@ -1,0 +1,26 @@
+%fluid-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: auto;
+}
+
+%clearfix {
+  &:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+%reset {
+  border: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+%wrapper {
+  padding-left: $gutter-width;
+  padding-right: $gutter-width;
+}
