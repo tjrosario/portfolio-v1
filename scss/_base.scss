@@ -97,7 +97,7 @@ ol {
 
 #header {
   background: $white;
-  border-bottom: 5px solid $summer-sky;
+  border-bottom: 3px solid $summer-sky;
   padding: 0 0 20px;
   text-align: center;
 
@@ -122,7 +122,7 @@ ol {
 }
 
 #content {
-  background: $white;
+  background: $romance;
   padding: 30px 0;
 }
 
@@ -142,6 +142,46 @@ section {
 
     p {
       margin: 0;
+    }
+  }
+}
+
+#recommendations {
+  margin-bottom: 50px;
+
+  blockquote {
+    @extend %reset;
+
+    .quote {
+      color: $natural-gray;
+      font-family: 'Noto Serif', serif;
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 400;
+      margin: 0 10px;
+
+      @include susy-breakpoint($tablet, $susy) {
+        font-size: 14px;
+      }
+    }
+
+    .author {
+      color: $natural-gray;
+      font-size: 12px;
+
+      @include susy-breakpoint($tablet, $susy) {
+        font-size: 14px;
+      }
+
+      span {
+        color: $warm-peach;
+        display: block;
+
+        @include susy-breakpoint($tablet, $susy) {
+          display: inline;
+          margin: 0 4px 0 0;
+        }
+      }
     }
   }
 }

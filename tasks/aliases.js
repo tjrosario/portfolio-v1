@@ -2,9 +2,9 @@ module.exports = {
   "default": [],
   lint: ['scsslint:all'],
   dev: [
-    "lint",  
-    //"uglify:development", 
-    "sass:dist",
+    "lint",
+    "uglify",
+    "sass",
     "copy", 
     "notify", 
     "watch"
