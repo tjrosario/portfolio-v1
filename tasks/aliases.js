@@ -1,12 +1,15 @@
 module.exports = {
   "default": [],
   lint: ['scsslint:all'],
-  dev: [
+  build: [
     "lint",
     "uglify",
     "sass",
     "copy", 
     "notify", 
+  ],
+  dev: [
+    "build",
     "watch"
   ]
 };
