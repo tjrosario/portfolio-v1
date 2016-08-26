@@ -18,5 +18,15 @@ module.exports = {
         dest: "dist/fonts/"
       }
     ]
+  },
+  data: {
+    files: [
+      {
+        expand: true,
+        cwd: "data/",
+        src: "**",
+        dest: "dist/data/"
+      }
+    ]
   }
 };

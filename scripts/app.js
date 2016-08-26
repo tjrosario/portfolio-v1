@@ -1,4 +1,6 @@
-$(document).ready(function(){
+var Tommy = window.Tommy || {};
+
+Tommy.initCarousel = function() {
   $('.owl-carousel').owlCarousel({
     autoHeight: true,
     autoplay: true,
@@ -28,4 +30,4 @@ $(document).ready(function(){
     responsiveClass: true,
     smartSpeed: 250
   });
-});
+};

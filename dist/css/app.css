@@ -2853,3 +2853,12 @@ section {
       margin-right: 0; }
   .social a {
     color: #fff; }
+
+#made-with {
+  text-align: center; }
+  #made-with h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0; }
+  #made-with img {
+    display: inline-block;
+    max-width: 50px; }

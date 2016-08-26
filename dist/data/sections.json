@@ -1,0 +1,14 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "headline": "About Tommy",
+      "content": "I'm a senior front-end specialist and web engineer with several years of experience developing small to large scale web sites and applications for some of the world's most recognized brands including including iHeartRadio, Clear Channel, Topps, Estee Lauder, Lowes, Virgin Mobile, Citi, Continental Airlines, Pepperidge Farm, Schwinn and USO."
+    },
+    {
+      "id": 2,
+      "headline": "Skillset",
+      "content": "Angular JS, NodeJS, KnockoutJS, jQuery, Prototype / Scriptaculous JS, MooTools, native JavaScript, Handlebars JS, Mustache JS, HTML5, CSS3, tablet/mobile web apps, Chrome extension and Firefox Add-on development, SEO, responsive CSS patterns, CMS platforms including Wordpress and Django, and frameworks such as Symfony, Laravel, Drupal, Magento &amp; OFbiz."
+    }
+  ]
+}

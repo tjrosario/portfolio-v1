@@ -1,0 +1,198 @@
+{
+  "sections": [
+    {
+      "slug": "about",
+      "headline": "About Tommy",
+      "content": {
+        "text": "I'm a senior front-end specialist and web engineer with several years of experience developing small to large scale web sites and applications for some of the world's most recognized brands including including iHeartRadio, Clear Channel, Topps, Estee Lauder, Lowes, Virgin Mobile, Citi, Continental Airlines, Pepperidge Farm, Schwinn and USO."
+      }
+    },
+    {
+      "slug": "skillset",
+      "headline": "Skillset",
+      "content": {
+        "text": "Angular JS, NodeJS, KnockoutJS, jQuery, Prototype / Scriptaculous JS, MooTools, native JavaScript, Handlebars JS, Mustache JS, HTML5, CSS3, tablet/mobile web apps, Chrome extension and Firefox Add-on development, SEO, responsive CSS patterns, CMS platforms including Wordpress and Django, and frameworks such as Symfony, Laravel, Drupal, Magento &amp; OFbiz."
+      }
+    },
+    {
+      "slug": "recommendations",
+      "headline": "Kind Words From Colleagues",
+      "content": {
+        "testimonials": [
+          {
+            "quote": "Tom brings efficiency to all his freelance front-end engineering engagements. I've brought Tom in on multiple engagements and he always delivers pristine markup in record time with clean, working js. He's an ace, so don't bid up his rate so that we can't afford him!",
+            "author": "Michael Oristian",
+            "title": "Entrepreneur, CX Technology"
+          },
+          {
+            "quote": "I've had the pleasure of working with Tom on a number of occasions both at an agency and on a freelance basis. Tom did (and does) an excellent job producing my designs into fully interactive masterpieces, in an extremely efficient &amp; effective manner. Couldn't ask for much more, highly recommended.",
+            "author": "Jacob Cass",
+            "title": "Identity Designer, Logo Designer, Graphic Designer, Web Designer at JUST Creative"
+          },
+          {
+            "quote": "I have worked with Tom on many full-scale ecommerce implementations over the years. His cutting edge work/wizardry speaks for itself. But the true pleasure of working with Tom is his drive to go above and beyond for our clients. He continually looks for opportunities to delight the users and business owners. Tom understands and respects the user experience, visual design, and technical feasibility of each project. He has a unique ability to push the boundaries of user experience using an ever-growing arsenal of tools. Truly a digital artist.",
+            "author": "Anna Perez",
+            "title": "Account Director at Alexander Interactive"
+          },
+          {
+            "quote": "I have much to reflect on in my now 9 years as a front-end/back-end developer, but chief among those reflections would be my front-end education, provided by incomparable Tom Rosario. When I first met him, I thought knew a lot. It turned out I knew about 30% of what I thought I did. Now, almost 6 years later, I still turn to Tom when I need that 'I only know ONE guy who can solve this one' perspective. Tom is a true gem in the field of front-end technology and I owe a good portion of my skill-set to him.",
+            "author": "Mike LeDoux",
+            "title": "Creative Technology Specialist"
+          },
+          {
+            "quote": "Tom is the most accomplished Front-End Developer / Engineer I have had the pleasure to work with. He has a genuine desire to always deliver the best possible work - even if that means some late night heroics to meet deadlines. Equally important, he has a knack for approaching complex engineering problems from the perspective of efficiency without sacrificing quality and complete-ness.",
+            "author": "David Ow",
+            "title": "VP, Project Management and Operations at Alexander Interactive (Cake &amp; Arrow)"
+          },
+          {
+            "quote": "Always impressed with Tom's speed in fixing issues and with learning new programming languages with stellar results. Ideal cooperation between a Business Analyst and a Developer. Highly recommend Tom any time any place as a coworker and as an individual.",
+            "author": "Demetrios Dolios",
+            "title": "Sr Consultant at Sapient"
+          },
+          {
+            "quote": "I've worked with Tom as a number of years. He is by far the best Front-end engineer I've ever had the pleasure of working with. He is familiar with CSS fundamentals and also keeps up with everything that is cutting edge. He has pioneered prototypes involving responsive design, LESS, and SAS. His expertise in HTML/CSS is only surpassed by his skills in javascript. He is THE javascript resource at our company and can handle anything from basic effects, to complex parallax animations, to large scale JS applications. Tom also has built up and manages a great team of front-end engineers. He has great management qualities and I would put complete trust in him running a project or a team.",
+            "author": "Timothy Broder",
+            "title": "CTO at Kidfund"
+          },
+          {
+            "quote": "Tom, a marvelously gifted front-end technologist, delivers at such a high level that his work can sometimes seem like magic. He understands that even the most seasoned interactive designers leave blanks to fill in and room for interpretation, and he uses this space as opportunity to push his own craft. The results consistently delight not only Ai's clients, but all of Tom's colleagues. Every member of his team that I've met, past and present, is thankful for the time they spent learning from him. I am, too.",
+            "author": "Matt Holford",
+            "title": "CTO at DoSomething.org"
+          },
+          {
+            "quote": "I've had the pleasure of working with Tom for the last couple years and have found his work to be nothing short of wizardry. Not only has Tom been out go-to for solving problems in code that stump the rest of our tech team, but his skills have also opened up possibilities in our creative process by introducing our design to all new possibilities with HTML, CSS, and JS. As a PM, I've found Tom to be especially conducive to my work because he is consistently on or ahead of his deadlines and extremely accommodating when plans change. Tom is a great guy, and I hope our future projects intersect as often as possible.",
+            "author": "John Childers",
+            "title": "Director of Project Management at Corra"
+          },
+          {
+            "quote": "I worked with Tom on some very complex projects at Ai, and in each case Tom lead the technical portion of our project with brains, skill and humor. I don't think we ever had a project with a reasonable timeline, or with typical deliverables, and Tom consistently helped us figure out the best ways to get the project done. Even when Tom pushed back on feasibility, he always had a suggested solution to get us where we wanted to go. I'd happily work with Tom again and recommend him highly.",
+            "author": "Jeremy Villano",
+            "title": "Strategy &amp; Business Development Professional"
+          },
+          {
+            "quote": "Tom is an excellent, dedicated front-end engineer and leader. His attention to detail, dedication to excellence and self improvement, and constant reliability make him stand out amongst his peers. I would most certainly recommend him and would work with him again.",
+            "author": "Loren Davie",
+            "title": "Founder at Axilent"
+          },
+          {
+            "quote": "Tom is hands-down one of the most exceptionally skilled front end developers in the industry. Tom is fast, extremely collaborative with design teams, and can produce the most beautiful standards compliant code you've ever seen in your life.",
+            "author": "Anthony Armendariz",
+            "title": "Partner &amp; Head of Design at Funsize"
+          },
+          {
+            "quote": "Tom was one of the most knowledgeable front end leads that I have ever worked with. Not only was a good manager but her was a great mentor, and without working with him I would probably not be as successful as I am today.",
+            "author": "James Vecchio",
+            "title": "Sr Front End Engineer Freelance"
+          },
+          {
+            "quote": "I worked with Tom on a variety of web applications while at Ai. Tom always impressed me with his meticulous and efficacious code. His knowledge of browsers, and how to work around their quirks, was second to none. He could fabricate new JS UI elements with ease. To boot, Tom was always very easy to work with. He is a front-end engineer to be admired, and I recommend him heartily.",
+            "author": "Kyle Banker",
+            "title": "Software Engineer"
+          },
+          {
+            "quote": "Tom has a top-notch front end web skills and drive for excellence. We worked together to build great web solutions at Alexander Interactive.",
+            "author": "John Choe",
+            "title": "Technologist"
+          },
+          {
+            "quote": "Tom is a great individual and extremely talented developer. We worked together for two years and, not only Tom delivered what was expected from him on time and budget, but also managed a whole team of developers keeping them motivated on a day to day basis. His knowledge of new trends and best practices always brought new solutions to the table. Tom is also very good with people, and I would be very comfortable having him leading internal and client meetings / calls.",
+            "author": "Thiago Brandao",
+            "title": "Senior Project Manager at Underground Elephant"
+          },
+          {
+            "quote": "In the time that we worked together, Tom grew from one of the best front-end developers to a manager and leader of the 'fender' team. He contributed both his technical expertise as well as his personality to build the hard-working, but fun-loving culture at Ai. Tom is the kind of engineer that you can point at a problem and know that it'll get done.",
+            "author": "David Yoon",
+            "title": "Director of Engineering"
+          },
+          {
+            "quote": "Watching him work, it was clear that he was a professional: confident, methodical, and efficient. It was a pleasure to watch complex designs quickly materialize on his screen. He carefully examined the most intricate parts of designs to ensure they were pixel perfect. He held himself to high standards and delivered.",
+            "author": "Ian Cohen",
+            "title": "Senior Software Engineer at Dyn"
+          },
+          {
+            "quote": "I'd be hard-pressed to think of a better front-end developer than Tom. He's an excellent leader and mentor, a hard worker and the kind of teammate you wish for on website and app development projects. You could throw any design at him and he works his magic to make it into viable code. He's so thorough and detailed in his work that by the time his work gets to you it's pretty much perfect. I've been repeatedly impressed by his ability to stay on top of the ever-changing HTML and CSS updates -- he's often in front of client desires. It was a pleasure working with Tom and I'd be delighted to work with him again.",
+            "author": "Thea Domber",
+            "title": "Strategist &amp; Program/Product Manager"
+          },
+          {
+            "quote": "Tom was an outstanding asset to the team at AI. His professionalism and work ethic was unmatched...always will to go the extra mile. From day one, he was committed to the project we were on, and always contributed high value and a great team attitude. I would highly recommend Tom for any position.",
+            "author": "Jim Brockman",
+            "title": "Director of Interactive Services at Boston Interactive"
+          },
+          {
+            "quote": "If there ever was a Front-End Engineer that was worthy of a Nobel it would be Tom. The way he re-invents the way we look at things on the web and his determination to over-deliver any expectation is amazing. He is a rare find in a sea of mediocre. I am grateful to have worked and learned with him.",
+            "author": "Sammy Shaar",
+            "title": "Lead Quality Assurance Engineer at Alexander Interactive"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "experience",
+      "headline": "Experience",
+      "content": {
+        "roles": [
+          {
+            "company": "AffinityX",
+            "startDate": "January 2015",
+            "endDate": "Present",
+            "position": "UI Engineer",
+            "description": "User interface development for white-label SMB web applications."
+          },
+          {
+            "company": "ThreadLab",
+            "startDate": "March 2014",
+            "endDate": "Present",
+            "position": "Lead Front-End Engineer",
+            "description": "Building a solution for a men's shopping service platform on a MEAN stack. Utilizing technologies such as AngularJS, NodeJS, Express, CoffeeScript, SASS, Groovy on Grails, MongoDB.  **Sites:** dosomething.org, blog.dosomething.org, neue.dosomething.org"
+          },
+          {
+            "company": "CPXi",
+            "startDate": "October 2013",
+            "endDate": "May 2013",
+            "position": "Senior Software Engineer",
+            "description": "Senior application developer for Consumer Apps and Realtime divisions.  Building various products such as browser plugins and real-time data-driven applications.  Utilizing technologies such as Handlebars JS, Angular JS, Laravel, Symfony, LESS, NodeJS and Sails MVC.  **Products:** sideMOJO (sidemojo.com)"
+          },
+          {
+            "company": "Tommy Rosario",
+            "startDate": "July 2008",
+            "endDate": "Present",
+            "position": "Freelance Front-End Specialist, Web Engineer",
+            "description": "**Sites:** festival.iheart.com, hauteinhabit.com"
+          },
+          {
+            "company": "Alexander Interactive",
+            "startDate": "July 2006",
+            "endDate": "September 2013",
+            "position": "Senior Technical Lead / Senior Front-End Engineer",
+            "description": "**Sites:** myringpop.com, esteelauder.com, lesters.com, sugoi.com, schwinnbikes.com, fragrance.com, folica.com, cache.com, envelopes.com, bizfilings.com, pexsupply.com, kaptest.com, chelseaclock.com, petcarerx.com, jewishcamp.org, steinersports.com, cpc.com, bestform.com,  allenschool.edu",
+            "responsibilities": [
+              "Built, managed and lead a team of seven front-end developers",
+              "In charge of providing front-end development estimates on all projects",
+              "Developed and re-wrote several re-usable JavaScript widgets from Prototype JS to jQuery",
+              "Introduced HTML5 and CSS3 to Magento applications",
+              "Defined and authored the company's best practices and coding standards document for front-end development",
+              "Worked closely with IA and Creative departments on defining new and effective user experiences",
+              "Worked closely with backend development team on front-end integration points",
+              "Provided technical direction for clients on front-end hand-off projects",
+              "Utilized text replacement technologies such as Typekit, Cufón, sIFR",
+              "Skinned and integrated custom Magento themes",
+              "Object-oriented JavaScript development",
+              "Responsive CSS",
+              "Parallax UI Development",
+              "Converted Photoshop documents into HTML and CSS templates",
+              "Wrote custom CSS reset framework"
+            ]
+          },
+          {
+            "company": "Decogram",
+            "startDate": "July 2008",
+            "endDate": "January 2016",
+            "position": "Lead Front-End Engineer",
+            "description": "**Sites:** decogram.com, corp.lucyphone.com, mjmai.com, fitterwith.com, telseygroup.com, dredscott.com"
+          }
+        ]
+      }
+    }
+  ]
+}

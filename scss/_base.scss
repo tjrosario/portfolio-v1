@@ -219,3 +219,17 @@ section {
     color: $white;
   }
 }
+
+#made-with {
+  text-align: center;
+
+  h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 50px;
+  }
+}
