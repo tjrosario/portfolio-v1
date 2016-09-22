@@ -1,9 +1,13 @@
 var Tommy = window.Tommy || {};
 
-Tommy.initCarousel = function() {
-  $('.owl-carousel').owlCarousel({
+Tommy.initCarousel = function($carousel, opts) {
+  opts = opts || {};
+  opts.autoplay = opts.autoplay || false;
+  opts.stagePadding = opts.stagePadding || 0;
+
+  var config = {
     autoHeight: true,
-    autoplay: true,
+    autoplay: opts.autoplay,
     autoplaySpeed: 1000,
     autoplayTimeout: 6000,
     dots: false,
@@ -11,6 +15,7 @@ Tommy.initCarousel = function() {
     loop: true,
     margin: 40,
     nav: true,
+    stagePadding: opts.stagePadding,
     responsive:{
       0: {
         autoplay: false,
@@ -29,5 +34,11 @@ Tommy.initCarousel = function() {
     },
     responsiveClass: true,
     smartSpeed: 250
-  });
+  };
+
+  if (opts.navText) {
+    config.navText = opts.navText;
+  }
+
+  $carousel.owlCarousel(config);
 };

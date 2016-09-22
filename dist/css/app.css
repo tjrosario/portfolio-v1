@@ -2834,6 +2834,83 @@ section {
           display: inline;
           margin: 0 4px 0 0; } }
 
+#projects .project {
+  cursor: pointer;
+  position: relative;
+  text-align: center; }
+  #projects .project:hover .thumbnail {
+    border-color: #438496;
+    opacity: .75; }
+  #projects .project:hover h3 {
+    color: #737373; }
+  #projects .project .thumbnail {
+    border: 2px solid #b37d4e;
+    margin: 0 0 8px;
+    transition: all .2s ease-out; }
+  #projects .project .video {
+    display: none; }
+  #projects .project h3 {
+    font-size: 14px;
+    margin: 0 0 5px; }
+  #projects .project .url {
+    font-size: 12px;
+    line-height: 1; }
+    #projects .project .url a {
+      text-decoration: none; }
+
+#projects .owl-nav .owl-prev {
+  height: 37px;
+  left: 0;
+  margin: -18.5px 0 0;
+  position: absolute;
+  top: 40%; }
+
+#projects .owl-nav .owl-next {
+  height: 37px;
+  margin: -18.5px 0 0;
+  position: absolute;
+  right: 0;
+  top: 40%; }
+
+#projects .owl-nav .fa {
+  font-size: 30px; }
+
+#projects .owl-nav span {
+  display: none; }
+
+#lightbox-overlay {
+  background: rgba(51, 51, 51, 0.75);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0%;
+  transition: all .2s ease-out;
+  width: 100%;
+  z-index: -1; }
+  #lightbox-overlay.active {
+    opacity: 1;
+    z-index: 9999; }
+
+.lightbox {
+  background: #333;
+  border: 3px solid #438496;
+  box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.5);
+  margin: 10% auto 0;
+  position: relative;
+  width: 90%; }
+  @media (min-width: 768px) {
+    .lightbox {
+      margin-top: 20px; } }
+  .lightbox .close {
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    position: absolute;
+    right: -20px;
+    top: -24px; }
+
 #footer {
   padding: 20px 0;
   text-align: center; }

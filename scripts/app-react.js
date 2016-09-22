@@ -34,6 +34,21 @@ var Role = React.createClass({
   }
 });
 
+var RoleList = React.createClass({
+  render: function() {
+    var roleNodes = this.props.data.map(function(role, i) {
+      return (
+        <Role company={ role.company } startDate={ role.startDate } endDate={ role.endDate } position={ role.position } description={ role.description } responsibilities={ role.responsibilities } key={ i }></Role>
+      );
+    });
+    return (
+      <div className="roles">
+        { roleNodes }
+      </div>  
+    );
+  }
+});
+
 var Testimonial = React.createClass({
   render: function() {
     return (
@@ -53,7 +68,7 @@ var Testimonial = React.createClass({
 
 var TestimonialList = React.createClass({
   componentDidMount: function() {
-    Tommy.initCarousel();
+    Tommy.initCarousel($('.testimonials'), { autoplay: true });
   },
   render: function() {
     var testimonialNodes = this.props.data.map(function(testimonial, i) {
@@ -69,18 +84,99 @@ var TestimonialList = React.createClass({
   }
 });
 
+var Video = React.createClass({
+  render: function() {
+    return (
+      <div className="video">
+        <video width="100%" height="100%" controls>
+          <source src={ 'dist/assets/projects/' + this.props.slug + '/' + this.props.file + '.mp4' } type="video/mp4" />
+          <source src={ 'dist/assets/projects/' + this.props.slug + '/' + this.props.file + '.ogg' } type="video/ogg" />
+          <source src={ 'dist/assets/projects/' + this.props.slug + '/' + this.props.file + '.webm' } type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    );
+  }
+});
+
+var Lightbox = React.createFactory(React.createClass({
+  componentDidMount: function() {
+    this.overlay = document.getElementById('lightbox-overlay');
+    this.overlay.className = 'active';
+  },
+  close: function() {
+    this.overlay.className = '';
+    ReactDOM.unmountComponentAtNode(this.overlay);
+  },
+  render: function() {
+    return (
+      <div className="lightbox">
+        <div className="content" dangerouslySetInnerHTML={{__html: this.props.content}}></div>
+        <i className="fa fa-times close" aria-hidden="true" onClick={ this.close }></i>
+      </div>
+    );
+  }
+}));
+
+var Project = React.createClass({
+  launchLightbox: function(e: Event) {
+    var currentTarget = $(e.currentTarget).parents('.project');
+    var $video = $(currentTarget).find('.video');
+    
+    ReactDOM.render(Lightbox({
+      content: $video.html()
+    }), document.getElementById('lightbox-overlay'));
+  },
+  render: function() {
+    return (
+      <div className="project">
+        <div className="thumbnail" onClick={ this.launchLightbox }>
+          <img src={ '/dist/assets/projects/' + this.props.slug + '/' + this.props.thumbnail } />
+        </div>
+        <h3>{ this.props.title }</h3>
+        <div className="url">
+          <a href={ this.props.url } target="_blank">{ this.props.url }</a>
+        </div>
+        <Video slug={ this.props.slug } file={ this.props.video }></Video>
+      </div>
+    );
+  }
+});
+
+var ProjectList = React.createClass({
+  componentDidMount: function() {
+    Tommy.initCarousel($('.projects'), {
+      stagePadding: 10,
+      navText: [
+        '<div class="nav nav-prev"><i class="fa fa-caret-left"></i><span>Previous</span></div>',
+        '<div class="nav nav-next"><span>Next</span><i class="fa fa-caret-right"></i></div>'
+      ]
+    });
+  },
+  render: function() {
+    var projectNodes = this.props.data.map(function(project, i) {
+      return (
+        <Project slug={ project.slug } thumbnail={ project.thumbnail } video={ project.video } title={ project.title } url={ project.url } key={ i }></Project>
+      );
+    });
+    return (
+      <div className="projects owl-carousel owl-theme">
+        { projectNodes }
+      </div>  
+    );
+  }
+});
+
 var Section = React.createClass({
   render: function() {
     var content;
 
     if (this.props.content.roles) {
-      content = this.props.content.roles.map(function(role, i) {
-        return (
-          <Role company={ role.company } startDate={ role.startDate } endDate={ role.endDate } position={ role.position } description={ role.description } responsibilities={ role.responsibilities } key={ i }></Role>
-        );
-      });
+      content = <RoleList data={ this.props.content.roles } />;
     } else if (this.props.content.testimonials) {
       content = <TestimonialList data={ this.props.content.testimonials } />;
+    } else if (this.props.content.projects) {
+      content = <ProjectList data={ this.props.content.projects } />;
     } else {
       content = <p>{ this.props.content.text }</p>;
     }
@@ -140,6 +236,8 @@ var Portfolio = React.createClass({
     );
   }
 });
+
+
 
 ReactDOM.render(
   <Portfolio url="/dist/data/portfolio.json" />,

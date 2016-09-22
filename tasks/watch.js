@@ -14,6 +14,10 @@ module.exports = {
     files: ["images/**/*"],
     tasks: ["copy:images"]
   },
+  assets: {
+    files: ["assets/**/*"],
+    tasks: ["copy:assets"]
+  },
   data: {
     files: ["data/**/*"],
     tasks: ["copy:data"]

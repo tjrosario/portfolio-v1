@@ -11,7 +11,64 @@
       "slug": "skillset",
       "headline": "Skillset",
       "content": {
-        "text": "ReactJS, Angular JS, NodeJS, KnockoutJS, jQuery, Prototype / Scriptaculous JS, MooTools, native JavaScript, Handlebars JS, Mustache JS, HTML5, CSS3, tablet/mobile web apps, Chrome extension and Firefox Add-on development, SEO, responsive CSS patterns, CMS platforms including Wordpress and Django, and frameworks such as Symfony, Laravel, Drupal, Magento &amp; OFbiz."
+        "text": "React, Angular JS, NodeJS, KnockoutJS, jQuery, Prototype / Scriptaculous JS, MooTools, native JavaScript, Handlebars JS, Mustache JS, Susy Grid, Bourbon/Neat, Twitter Bootstrap, Zurb Foundation, Grunt, HTML5, CSS3, tablet/mobile web apps, Chrome extension and Firefox Add-on development, SEO, responsive CSS patterns, CMS platforms including Wordpress and Django, and frameworks such as Symfony, Laravel, Drupal, Magento & OFbiz"
+      }
+    },
+    {
+      "slug": "projects",
+      "headline": "Projects",
+      "content": {
+        "projects": [
+          {
+            "slug": "bizfilings",
+            "title": "BizFilings Product Comparison Tool",
+            "url": "http://www.bizfilings.com/",
+            "thumbnail": "bizfilings_product_compare.jpg",
+            "video": "bizfilings_product_compare"
+          },
+          {
+            "slug": "chelseaclock",
+            "title": "Chelsea Clock Redesign",
+            "url": "http://www.chelseaclock.com",
+            "thumbnail": "chelseaclock_timeline.jpg",
+            "video": "chelseaclock_timeline"
+          },
+          {
+            "slug": "esteelauder",
+            "title": "Estee Lauder Homepage",
+            "url": "http://www.esteelauder.com",
+            "thumbnail": "esteelauder_homepage.jpg",
+            "video": "esteelauder_homepage"
+          },
+          {
+            "slug": "ihrmf",
+            "title": "2013 iHeartRadio Music Festival Minisite",
+            "url": "http://festival.iheart.com",
+            "thumbnail": "ihrmf.jpg",
+            "video": "ihrmf"
+          },
+          {
+            "slug": "ringpop",
+            "title": "My Ringpop Customization App",
+            "url": "http://www.myringpop.com",
+            "thumbnail": "storyboard.jpg",
+            "video": "storyboard"
+          },
+          {
+            "slug": "schwinn",
+            "title": "Schwinn Bike Finder",
+            "url": "http://www.schwinnbikes.com/usa/bikes/bike-finder",
+            "thumbnail": "schwinn_bike_finder.jpg",
+            "video": "schwinn_bike_finder"
+          },
+          {
+            "slug": "sugoi",
+            "title": "Sugoi Bikes Homepage",
+            "url": "http://www.sugoi.com/usa",
+            "thumbnail": "sugoi_homepage_carousel.jpg",
+            "video": "sugoi_homepage_carousel"
+          }
+        ]
       }
     },
     {
@@ -144,12 +201,19 @@
             "startDate": "March 2014",
             "endDate": "Present",
             "position": "Lead Front-End Engineer",
-            "description": "Building a solution for a men's shopping service platform on a MEAN stack. Utilizing technologies such as AngularJS, NodeJS, Express, CoffeeScript, SASS, Groovy on Grails, MongoDB.  **Sites:** dosomething.org, blog.dosomething.org, neue.dosomething.org"
+            "description": "Building a solution for a men's shopping service platform on a MEAN stack. Utilizing technologies such as AngularJS, NodeJS, Express, CoffeeScript, SASS, Groovy on Grails, MongoDB."
+          },
+          {
+            "company": "DoSomething.org",
+            "startDate": "May 2014",
+            "endDate": "January 2015",
+            "position": "Software Engineer",
+            "description": "Contributed to open-source Drupal platform, interface framework and pattern libraries.  **Sites:** dosomething.org, blog.dosomething.org, neue.dosomething.org"
           },
           {
             "company": "CPXi",
             "startDate": "October 2013",
-            "endDate": "May 2013",
+            "endDate": "May 2014",
             "position": "Senior Software Engineer",
             "description": "Senior application developer for Consumer Apps and Realtime divisions.  Building various products such as browser plugins and real-time data-driven applications.  Utilizing technologies such as Handlebars JS, Angular JS, Laravel, Symfony, LESS, NodeJS and Sails MVC.  **Products:** sideMOJO (sidemojo.com)"
           },
