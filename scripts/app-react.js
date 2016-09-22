@@ -145,13 +145,15 @@ var Project = React.createClass({
 
 var ProjectList = React.createClass({
   componentDidMount: function() {
-    Tommy.initCarousel($('.projects'), {
-      stagePadding: 10,
-      navText: [
-        '<div class="nav nav-prev"><i class="fa fa-caret-left"></i><span>Previous</span></div>',
-        '<div class="nav nav-next"><span>Next</span><i class="fa fa-caret-right"></i></div>'
-      ]
-    });
+    setTimeout(function() {
+      Tommy.initCarousel($('.projects'), {
+        stagePadding: 10,
+        navText: [
+          '<div class="nav nav-prev"><i class="fa fa-caret-left"></i><span>Previous</span></div>',
+          '<div class="nav nav-next"><span>Next</span><i class="fa fa-caret-right"></i></div>'
+        ]
+      });
+    }, 1000);
   },
   render: function() {
     var projectNodes = this.props.data.map(function(project, i) {
