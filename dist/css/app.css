@@ -2839,14 +2839,31 @@ section {
   position: relative;
   text-align: center; }
   #projects .project:hover .thumbnail {
-    border-color: #438496;
-    opacity: .75; }
+    border-color: #438496; }
+    #projects .project:hover .thumbnail img {
+      opacity: .55; }
+    #projects .project:hover .thumbnail .fa {
+      opacity: 1; }
   #projects .project:hover h3 {
     color: #737373; }
   #projects .project .thumbnail {
     border: 2px solid #b37d4e;
     margin: 0 0 8px;
-    transition: all .2s ease-out; }
+    position: relative; }
+    #projects .project .thumbnail img {
+      transition: all .2s ease-out; }
+    #projects .project .thumbnail .fa {
+      color: #333;
+      font-size: 50px;
+      height: 50px;
+      left: 50%;
+      margin: -25px 0 0 -25px;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      transition: all .2s ease-out;
+      width: 50px;
+      z-index: 2; }
   #projects .project .video {
     display: none; }
   #projects .project h3 {
@@ -2901,7 +2918,8 @@ section {
   width: 90%; }
   @media (min-width: 768px) {
     .lightbox {
-      margin-top: 20px; } }
+      margin-top: 20px;
+      width: 80%; } }
   .lightbox .close {
     color: #fff;
     cursor: pointer;

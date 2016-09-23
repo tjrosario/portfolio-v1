@@ -132,6 +132,7 @@ var Project = React.createClass({
       <div className="project">
         <div className="thumbnail" onClick={ this.launchLightbox }>
           <img src={ '/dist/assets/projects/' + this.props.slug + '/' + this.props.thumbnail } />
+          <i className="fa fa-caret-square-o-right" aria-hidden="true"></i>
         </div>
         <h3>{ this.props.title }</h3>
         <div className="url">
