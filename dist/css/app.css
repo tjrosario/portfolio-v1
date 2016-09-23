@@ -2779,8 +2779,11 @@ ol {
 #header {
   background: #fff;
   border-bottom: 3px solid #286da8;
-  padding: 0 0 20px;
+  padding: 0 0 10px;
   text-align: center; }
+  @media (min-width: 768px) {
+    #header {
+      padding-bottom: 20px; } }
   #header .avatar img {
     max-height: 100px; }
     @media (min-width: 768px) {
@@ -2791,6 +2794,13 @@ ol {
     margin: 0 0 10px; }
   #header p {
     margin: 0; }
+  @media (min-width: 768px) {
+    #header .social {
+      position: absolute;
+      right: 20px;
+      top: 5px; } }
+  #header .social li {
+    font-size: 20px; }
 
 #content {
   background: #fffefc;
@@ -2934,6 +2944,8 @@ section {
   text-align: center; }
   #footer .social {
     margin: 0 0 20px; }
+    #footer .social a {
+      color: #fff; }
   #footer p {
     color: #72acdd;
     font-size: 14px;
@@ -2946,8 +2958,6 @@ section {
     margin: 0 15px 0 0; }
     .social li:last-child {
       margin-right: 0; }
-  .social a {
-    color: #fff; }
 
 #made-with {
   text-align: center; }

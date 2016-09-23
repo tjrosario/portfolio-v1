@@ -98,8 +98,12 @@ ol {
 #header {
   background: $white;
   border-bottom: 3px solid $summer-sky;
-  padding: 0 0 20px;
+  padding: 0 0 10px;
   text-align: center;
+
+  @include susy-breakpoint($tablet, $susy) {
+    padding-bottom: 20px;
+  }
 
   .avatar {
     img {
@@ -118,6 +122,18 @@ ol {
 
   p {
     margin: 0;
+  }
+
+  .social {
+    @include susy-breakpoint($tablet, $susy) {
+      position: absolute;
+      right: 20px;
+      top: 5px;
+    }
+
+    li {
+      font-size: 20px;
+    }
   }
 }
 
@@ -327,6 +343,10 @@ section {
 
   .social {
     margin: 0 0 20px;
+
+    a {
+      color: $white;
+    }
   }
 
   p {
@@ -348,10 +368,6 @@ section {
     &:last-child {
       margin-right: 0;
     }
-  }
-
-  a {
-    color: $white;
   }
 }
 
