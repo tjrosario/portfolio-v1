@@ -1,40 +1,53 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "online portfolio",
-  "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --inline --hot",
+    "build": "webpack",
+    "stats": "webpack --profile --json > stats.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tjrosario/portfolio.git"
   },
-  "author": "Tommy Rosario <tommy@tommyrosario.com>",
+  "author": "Tommy Rosario",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tjrosario/portfolio/issues"
-  },
-  "homepage": "https://github.com/tjrosario/portfolio#readme",
-  "devDependencies": {
-    "babel-browser-transform": "^0.1.0",
-    "babel-preset-react": "^6.11.1",
-    "babelify": "^7.3.0",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "copy-webpack-plugin": "^3.0.1",
+    "express": "^4.13.4",
+    "extract-text-webpack-plugin": "^1.0.1",
     "font-awesome": "^4.6.3",
-    "grunt": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify": "^2.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-notify": "^0.4.5",
-    "grunt-sass": "^1.2.0",
-    "grunt-scss-lint": "^0.3.8",
-    "jquery": "^1.11.0",
-    "load-grunt-config": "^0.19.2",
-    "owl.carousel": "^2.1.4",
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1",
+    "font-awesome-sass-loader": "^1.0.2",
+    "jquery": "^3.1.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-owl-carousel": "^0.14.0",
     "remarkable": "^1.6.2",
+    "resolve-url": "^0.2.1",
+    "resolve-url-loader": "^1.6.0",
     "susy": "^2.2.12",
-    "time-grunt": "^1.4.0"
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.8.2",
+    "webpack-hot-middleware": "^2.12.2"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "clean-webpack-plugin": "^0.1.10",
+    "html-webpack-plugin": "^2.22.0",
+    "image-webpack-loader": "^2.0.0",
+    "node-sass": "^3.10.0",
+    "sass-loader": "^4.0.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
+    "webpack-merge": "^0.14.1",
+    "webpack-validator": "^2.2.7"
   }
 }
