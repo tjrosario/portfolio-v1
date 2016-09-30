@@ -194,28 +194,28 @@
             "startDate": "January 2015",
             "endDate": "Present",
             "position": "UI Engineer",
-            "description": "User interface development for white-label SMB web applications."
+            "description": "User interface development for white-label SMB web applications.  **Technologies**: KnockoutJS, jQuery, SASS, Susy Grid, Grunt"
           },
           {
             "company": "ThreadLab",
             "startDate": "March 2014",
             "endDate": "Present",
             "position": "Lead Front-End Engineer",
-            "description": "Building a solution for a men's shopping service platform on a MEAN stack. Utilizing technologies such as AngularJS, NodeJS, Express, CoffeeScript, SASS, Groovy on Grails, MongoDB."
+            "description": "Building a solution for a men's shopping service platform on a MEAN stack.  **Technologies**: AngularJS, NodeJS, ES6 (2015), SASS, Bourbon/Neat, Grunt, Stripe, Paypal, Groovy on Grails, MongoDB."
           },
           {
             "company": "DoSomething.org",
             "startDate": "May 2014",
             "endDate": "January 2015",
             "position": "Software Engineer",
-            "description": "Contributed to open-source Drupal platform, interface framework and pattern libraries.  **Sites:** dosomething.org, blog.dosomething.org, neue.dosomething.org"
+            "description": "Contributed to open-source Drupal platform, interface framework and pattern libraries.  **Sites:** dosomething.org, blog.dosomething.org, neue.dosomething.org.  **Technologies**: Drupal 7, SASS, Bourbon/Neat, Grunt."
           },
           {
             "company": "CPXi",
             "startDate": "October 2013",
             "endDate": "May 2014",
             "position": "Senior Software Engineer",
-            "description": "Senior application developer for Consumer Apps and Realtime divisions.  Building various products such as browser plugins and real-time data-driven applications.  Utilizing technologies such as Handlebars JS, Angular JS, Laravel, Symfony, LESS, NodeJS and Sails MVC.  **Products:** sideMOJO (sidemojo.com)"
+            "description": "Senior application developer for Consumer Apps and Realtime divisions.  Building various products such as browser plugins and real-time data-driven applications.  **Technologies**: Handlebars JS, Laravel, Symfony, LESS, NodeJS and Sails MVC.  **Products:** sideMOJO (sidemojo.com)"
           },
           {
             "company": "Tommy Rosario",
