@@ -10,10 +10,17 @@ class Role extends Component {
 
   render() {
     const responsibilities = this.props.responsibilities;
-    let responsibilitiesList;
+    const technologies = this.props.technologies;
+
+    let responsibilitiesList, technologiesList;
     if (responsibilities) {
       responsibilitiesList = responsibilities.map((responsibility, i) =>
         <li key={ i }>{ responsibility }</li>);
+    }
+
+    if (technologies) {
+      technologiesList = technologies.map((technology, i) =>
+        <li key={ i }>{ technology }</li>);
     }
 
     return (
@@ -23,15 +30,31 @@ class Role extends Component {
           <p>{ this.props.startDate } - { this.props.endDate }</p>
           <p><strong>Roles:</strong> { this.props.position }</p>
         </header>
-        <div className="description" dangerouslySetInnerHTML={ this.rawMarkup() }></div>
+
+        { 
+          this.props.technologies ? 
+            <div className="technologies">
+              <h4>Technologies:</h4>
+              <div className="content">
+                <ul>{ technologiesList }</ul>
+              </div>
+            </div>
+          : null
+        }
 
         { 
           this.props.responsibilities ? 
             <div className="responsibilities">
-              <ul>{ responsibilitiesList }</ul>
+              <div className="content">
+                <ul>{ responsibilitiesList }</ul>
+              </div>
             </div>
           : null
         }
+
+        <div className="description">
+          <div className="content" dangerouslySetInnerHTML={ this.rawMarkup() }></div>
+        </div>
       </div>
     );
   }

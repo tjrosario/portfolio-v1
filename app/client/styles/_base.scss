@@ -149,6 +149,54 @@ section {
 #experience {
   .role {
     margin: 0 0 30px;
+
+    h4 {
+      display: inline-block;
+      margin: 0 5px 0 0;
+    }
+
+    .content {
+      display: inline-block;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .technologies {
+      ul {
+        @extend %reset;
+
+        li {
+          display: inline-block;
+          margin: 0 5px 0 0;
+
+          &:after {
+            content: ",";
+          }
+
+          &:last-child {
+            &:after {
+              content: "";
+            }
+          }
+        }
+      }
+    }
+
+    .description {
+      margin-top: 20px;
+
+      h4 {
+        display: block;
+      }
+
+      .content {
+        color: $natural-gray;
+        font-style: italic;
+        display: block;
+      }
+    }
   }
 
   header {
