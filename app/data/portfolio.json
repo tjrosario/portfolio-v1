@@ -20,6 +20,13 @@
       "content": {
         "projects": [
           {
+            "slug": "hba",
+            "title": "Hood By Air Redesign",
+            "url": "http://www.hoodbyair.com/",
+            "thumbnail": "hba.jpg",
+            "video": "hba"
+          },
+          {
             "slug": "bizfilings",
             "title": "BizFilings Product Comparison Tool",
             "url": "http://www.bizfilings.com/",
@@ -208,7 +215,7 @@
             "startDate": "March 2014",
             "endDate": "Present",
             "position": "Lead Front-End Engineer",
-            "description": "Assited in building a solution for a men's shopping service platform for males who hate to shop.  Focussed on menswear basics and essentials from well known brands.  The service uses technology, rather than the typical stylist, to ensure customers receive perfectly fitting garments.",
+            "description": "Assisted in building a solution for a men's shopping service platform for males who hate to shop. Focused on menswear basics and essentials from well known brands. The service uses technology, rather than the typical stylist, to ensure customers receive perfectly fitting garments.",
             "technologies": [
               "AngularJS", 
               "NodeJS", 
@@ -229,7 +236,9 @@
             "position": "Software Engineer",
             "description": "Contributed to open-source Drupal platform, interface framework and pattern libraries.  **Sites:** dosomething.org, blog.dosomething.org, neue.dosomething.org.",
             "technologies": [
-              "Drupal 7", 
+              "Drupal 7",
+              "jQuery",
+              "RequireJS",
               "SASS", 
               "Bourbon/Neat", 
               "Grunt"
