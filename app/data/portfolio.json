@@ -22,14 +22,14 @@
           {
             "slug": "hba",
             "title": "Hood By Air Redesign",
-            "url": "http://www.hoodbyair.com/",
+            "url": "http://www.hoodbyair.com",
             "thumbnail": "hba.jpg",
             "video": "hba"
           },
           {
             "slug": "bizfilings",
             "title": "BizFilings Product Comparison Tool",
-            "url": "http://www.bizfilings.com/",
+            "url": "http://www.bizfilings.com",
             "thumbnail": "bizfilings_product_compare.jpg",
             "video": "bizfilings_product_compare"
           },
