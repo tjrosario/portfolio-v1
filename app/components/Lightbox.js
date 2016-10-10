@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 class Lightbox extends Component {
@@ -22,4 +22,4 @@ class Lightbox extends Component {
   }
 }
 
-export default Lightbox
+export default Lightbox;

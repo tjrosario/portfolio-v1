@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class Video extends Component {
   render() {
@@ -15,4 +15,4 @@ class Video extends Component {
   }
 }
 
-export default Video
+export default Video;

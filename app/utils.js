@@ -1,8 +1,22 @@
-//import $ from 'jquery';
+import $ from 'jquery';
 
-const Utils = {};
+export function getContentFromServer(path, handler) {
+  $.ajax({
+    url: path,
+    //url: '/app/data/portfolio.json',
+    dataType: 'json',
+    cache: false,
+    success: data => {
+      handler(data);
+      //this.setState({ data: data.sections });
+    },
+    error: (xhr, status, err) => {
+      console.error(this.props.url, status, err.toString());
+    }
+  });
+}
 
-Utils.getCarouselSettings = ($carousel, opts) => {
+export function getCarouselSettings($carousel, opts) {
   opts = opts || {};
   opts.autoplay = opts.autoplay || false;
   opts.stagePadding = opts.stagePadding || 0;
@@ -49,7 +63,4 @@ Utils.getCarouselSettings = ($carousel, opts) => {
   }
 
   return config;
-};
-
-
-export default Utils
+}

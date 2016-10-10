@@ -1,0 +1,96 @@
+{
+  "experience": [
+    {
+      "company": "AffinityX",
+      "startDate": "January 2015",
+      "endDate": "Present",
+      "position": "UI Engineer",
+      "description": "User interface development for white-label SMB web applications.  Products specifically targetted at clients within the creative and marketing industries offering digital solutions such as online ad campaigns, branding, print ads, websites and more.",
+      "technologies": [
+        "KnockoutJS", 
+        "jQuery", 
+        "SASS", 
+        "Susy Grid", 
+        "Grunt"
+      ]
+    },
+    {
+      "company": "ThreadLab",
+      "startDate": "March 2014",
+      "endDate": "Present",
+      "position": "Lead Front-End Engineer",
+      "description": "Assisted in building a solution for a men's shopping service platform for males who hate to shop. Focused on menswear basics and essentials from well known brands. The service uses technology, rather than the typical stylist, to ensure customers receive perfectly fitting garments.",
+      "technologies": [
+        "AngularJS", 
+        "NodeJS", 
+        "ES6 (2015)", 
+        "SASS", 
+        "Bourbon/Neat", 
+        "Grunt", 
+        "Stripe", 
+        "Paypal", 
+        "Groovy on Grails", 
+        "MongoDB"
+      ]
+    },
+    {
+      "company": "DoSomething.org",
+      "startDate": "May 2014",
+      "endDate": "January 2015",
+      "position": "Software Engineer",
+      "description": "Contributed to open-source Drupal platform, interface framework and pattern libraries.  **Sites:** dosomething.org, blog.dosomething.org, neue.dosomething.org.",
+      "technologies": [
+        "Drupal 7",
+        "jQuery",
+        "RequireJS",
+        "SASS", 
+        "Bourbon/Neat", 
+        "Grunt"
+      ]
+    },
+    {
+      "company": "CPXi",
+      "startDate": "October 2013",
+      "endDate": "May 2014",
+      "position": "Senior Software Engineer",
+      "description": "Senior application developer for Consumer Apps and Realtime divisions.  Building various products such as browser plugins and real-time data-driven applications.  **Products:** sideMOJO (sidemojo.com)",
+      "technologies": [
+        "Handlebars JS", 
+        "Laravel", 
+        "Symfony", 
+        "LESS", 
+        "NodeJS",
+        "Sails MVC"
+      ]
+    },
+    {
+      "company": "Tommy Rosario",
+      "startDate": "July 2008",
+      "endDate": "Present",
+      "position": "Freelance Front-End Specialist, Web Engineer",
+      "description": "Freelance frontend consultant for various hire.  **Sites:** hoodbyair.com, festival.iheart.com, hauteinhabit.com"
+    },
+    {
+      "company": "Alexander Interactive",
+      "startDate": "July 2006",
+      "endDate": "September 2013",
+      "position": "Senior Technical Lead / Senior Front-End Engineer",
+      "description": "Built, managed and lead a team of seven front-end developers.  In charge of providing front-end development estimates on all projects.  Developed and re-wrote several re-usable JavaScript widgets from Prototype JS to jQuery.  Introduced HTML5 and CSS3 to Magento applications.  Defined and authored the company's best practices and coding standards document for front-end development.  Worked closely with IA and Creative departments on defining new and effective user experiences.  Worked closely with backend development team on front-end integration points.  Provided technical direction for clients on front-end hand-off projects.  Utilized text replacement technologies such as Typekit, Cufón, sIFR.  Skinned and integrated custom Magento themes.  Object-oriented JavaScript development.  Responsive CSS development.  Converted Photoshop documents into HTML and CSS templates.  Wrote custom CSS reset framework.  **Sites**: myringpop.com, esteelauder.com, lesters.com, sugoi.com, schwinnbikes.com, fragrance.com, folica.com, cache.com, envelopes.com, bizfilings.com, pexsupply.com, kaptest.com, chelseaclock.com, petcarerx.com, jewishcamp.org, steinersports.com, cpc.com, bestform.com,  allenschool.edu",
+      "technologies": [
+        "jQuery",
+        "PrototypeJS",
+        "Less",
+        "CSS3",
+        "Magento",
+        "OfBiz"
+      ]
+    },
+    {
+      "company": "Decogram",
+      "startDate": "July 2008",
+      "endDate": "January 2016",
+      "position": "Lead Front-End Engineer",
+      "description": "**Sites**: decogram.com, corp.lucyphone.com, mjmai.com, fitterwith.com, telseygroup.com, dredscott.com"
+    }
+  ]
+}

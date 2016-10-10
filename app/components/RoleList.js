@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Role from './Role'
+import React, { Component } from 'react';
+import Role from './Role';
 
 class RoleList extends Component {
   render() {
@@ -14,4 +14,4 @@ class RoleList extends Component {
   }
 }
 
-export default RoleList
+export default RoleList;

@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-class Testimonal extends Component {
+class Recommendation extends Component {
   render() {
     return (
-      <div className="testimonial">
+      <div className="recommendation">
         <blockquote>
           <i className="fa fa-quote-left" aria-hidden="true"></i>
           <span className="quote">{ this.props.quote }</span>
@@ -17,4 +17,4 @@ class Testimonal extends Component {
   }
 }
 
-export default Testimonal
+export default Recommendation;

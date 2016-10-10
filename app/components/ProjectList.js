@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Project from './Project'
-import Utils from './Utils'
+import React, { Component } from 'react';
+import Project from './Project';
+import * as Utils from '../utils';
 import OwlCarousel from 'react-owl-carousel';
 
 class ProjectList extends Component {
@@ -39,4 +39,4 @@ class ProjectList extends Component {
   }
 }
 
-export default ProjectList
+export default ProjectList;

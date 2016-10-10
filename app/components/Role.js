@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Remarkable from 'remarkable'
+import React, { Component } from 'react';
+import Remarkable from 'remarkable';
 
 class Role extends Component {
   rawMarkup() {
@@ -60,4 +60,4 @@ class Role extends Component {
   }
 }
 
-export default Role
+export default Role;

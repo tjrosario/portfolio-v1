@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import Testimonial from './Testimonial'
-import Utils from './Utils'
-import OwlCarousel from 'react-owl-carousel'
+import React, { Component } from 'react';
+import Recommendation from './Recommendation';
+import * as Utils from '../utils';
+import OwlCarousel from 'react-owl-carousel';
 
-class TestimonialList extends Component {
+class RecommendationList extends Component {
   constructor(props, context) {
     super(props, context);
     const settings = {
@@ -13,8 +13,8 @@ class TestimonialList extends Component {
   }
 
   render() {
-    const testimonialNodes = this.props.data.map((testimonial, i) =>
-      <Testimonial quote={ testimonial.quote } author={ testimonial.author } title={ testimonial.title } key={ i }></Testimonial>);
+    const recommendationNodes = this.props.data.map((recommendation, i) =>
+      <Recommendation quote={ recommendation.quote } author={ recommendation.author } title={ recommendation.title } key={ i }></Recommendation>);
     
     return (
       <OwlCarousel
@@ -30,10 +30,10 @@ class TestimonialList extends Component {
         slideSpeed={ this.state.slideSpeed }
         theme={ this.state.theme }
         >
-        { testimonialNodes }
+        { recommendationNodes }
       </OwlCarousel> 
     );
   }
 }
 
-export default TestimonialList
+export default RecommendationList;

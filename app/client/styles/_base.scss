@@ -137,6 +137,32 @@ ol {
   }
 }
 
+#nav {
+  margin: 20px 0 0;
+}
+
+.navigation {
+  @extend %reset;
+
+  li {
+    display: inline-block;
+    margin: 0 30px 0 0;
+
+    a {
+      text-decoration: none;
+
+      &.active,
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
 #content {
   background: $romance;
   padding: 30px 0;
@@ -144,6 +170,19 @@ ol {
 
 section {
   margin: 0 0 50px;
+}
+
+#skillset {
+  ul {
+    @extend %clearfix;
+    @extend %reset;
+    list-style: inside;
+  }
+
+  li {
+    float: left;
+    margin: 0 20px 10px 0;
+  }
 }
 
 #experience {
@@ -225,8 +264,8 @@ section {
     }
   }
 
-  .testimonial {
-    padding: 0 40px;
+  .recommendation {
+    padding: 0 40px 0 0;
   }
 
   blockquote {
