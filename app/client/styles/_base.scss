@@ -176,12 +176,18 @@ section {
   ul {
     @extend %clearfix;
     @extend %reset;
-    list-style: inside;
+    list-style: outside;
+    margin-left: 40px;
   }
 
   li {
-    float: left;
-    margin: 0 20px 10px 0;
+    @include gallery(6 of $columns);
+
+    @include susy-breakpoint($tablet, $susy) {
+      @include gallery(3 of $columns);
+    }
+    margin-bottom: 10px;
+    padding: 0 20px 0 0;
   }
 }
 
