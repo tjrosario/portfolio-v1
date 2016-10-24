@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import Video from './Video';
+import ProjectVideo from './ProjectVideo';
 import Lightbox from './Lightbox';
 
 class Project extends Component {
@@ -27,7 +27,7 @@ class Project extends Component {
         <div className="url">
           <a href={ this.props.url } target="_blank">{ this.props.url }</a>
         </div>
-        <Video slug={ this.props.slug } file={ this.props.video }></Video>
+        <ProjectVideo slug={ this.props.slug } file={ this.props.video }></ProjectVideo>
       </div>
     );
   }

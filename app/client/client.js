@@ -9,6 +9,7 @@ import Experience from '../pages/Experience';
 import Projects from '../pages/Projects';
 import Recommendations from '../pages/Recommendations';
 import Skillset from '../pages/Skillset';
+import Intro from '../pages/Intro';
 
 const app = document.getElementById('app')
 
@@ -21,6 +22,7 @@ render(
       <Route path="projects" component={ Projects }></Route>
       <Route path="recommendations" component={ Recommendations }></Route>
       <Route path="skillset" component={ Skillset }></Route>
+      <Route path="intro" component={ Intro }></Route>
     </Route>
   </Router>,
   app

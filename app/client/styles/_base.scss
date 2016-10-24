@@ -24,6 +24,10 @@ img {
   @include container;
 }
 
+.hidden {
+  @extend %hidden;
+}
+
 .span1 {
   @include span-columns(1);
 }

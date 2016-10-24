@@ -24,3 +24,9 @@
   padding-left: $gutter-width;
   padding-right: $gutter-width;
 }
+
+%hidden {
+  left: -9999em;
+  position: absolute;
+  top: -9999em;
+}
